@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
@@ -141,6 +143,12 @@ body{
         background: #07bbf3;
         box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.3);
         border-radius: 6px;
+        cursor: pointer;
+        &:hover{
+            background-color: #7681A0;
+            border: #07bbf3 solid 2px;
+            border-radius: 0;
+        }
         .table-subheader {
           font-size: 15px;
           font-weight: 400;
@@ -366,6 +374,12 @@ body{
           border-radius: 6px;
           padding: 12px 30px;
           margin: 0 10px;
+          position: relative;
+          &:hover{
+            background-color: #7681A0;
+            border: #07bbf3 solid 2px;
+            border-radius: 0;
+          }
         }
       }
     }
@@ -607,6 +621,9 @@ body{
             text-decoration: none;
             color: white;
             text-transform: uppercase;
+          }
+          &:hover{
+              box-shadow: #07bcf3 0 0 40px ;
           }
         }
       }

@@ -14,3 +14,4 @@ $(".forth-block-table-mobile").slick({
     arrows: false,
     variableWidth: true
  })
+ AOS.init();
